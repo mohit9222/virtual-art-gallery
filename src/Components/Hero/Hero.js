@@ -1,6 +1,5 @@
 import React from 'react'
-import './Hero.css'
-import Button from '../Button/Button'
+import './Hero.scss'
 
 function Hero() {
 
@@ -19,18 +18,13 @@ function Hero() {
             </div>
 
             <div className="hero-button">
-            <div className="hero-button">
                 <a href="#gallery">
-                <Button />
-                </a>
-            </div>
-                {/* <a href="#gallery">
                     <button className="button">
                         Let's Explore
                         <div className="button__horizontal"></div>
                         <div className="button__vertical"></div>
                     </button>
-                </a> */}
+                </a>
             </div>
         </div>
     )
