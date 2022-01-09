@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "node-sass": "^7.0.1",
+    "resolve-url-loader": "^4.0.0",
     "sass": "^1.47.0"
   }
 }
