@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Gallery from './Components/Gallery/Gallery';
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
+import StickyFilters from './Components/StickyFilters/StickyFilters';
 
 function App() {
     return (
@@ -18,6 +19,9 @@ function App() {
             </div>
             <div className='row'>
                 <BottomNote/>
+            </div>
+            <div className='row'>
+                <StickyFilters />
             </div>
             <div className='row'>
                 <Gallery/>
