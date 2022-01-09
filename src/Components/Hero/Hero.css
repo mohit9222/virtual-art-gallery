@@ -1,52 +1,134 @@
 .hero-container {
-  background-image: url("../../assets/Ckp_entr.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  box-shadow: 0px 15px 10px -15px #111;
-  height: 75vh;
-  display: flex;
-  flex-direction: column;
-  align-items: right;
-  justify-content: right;
-  color: black;
+	background-image: url("../../assets/abstr.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	box-shadow: 0px 15px 10px -15px white;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+  }
+  
+  .hero-title h3 {
+	font-family: "The Nautigal", cursive;
+	font-size: 6vw;
+	font-weight: bold;
+	text-align: right;
+	/* // padding-right: 5%; */
+  }
+  
+  .hero-k h3 {
+	font-size: 50px;
+	text-align: center;
+  }
+  
+  .text-container {
+	font-size: 2vw;
+	font-weight: bold;
+	text-align: center;
+	/* // padding-right: 5%; */
+  }
+  
+  .hero-text-1 {
+	font-family: "The Nautigal", cursive;
+	font-size: 3vw;
+	font-weight: bold;
+	text-align: center;
+	/* // padding-right: 8%;
+	// position:absolute;
+	// bottom: 40%;
+	// right:0; */
+	color: white;
+  }
+  
+  .hero-button {
+	color: white;
+	margin:auto;
+	/* // padding-right: 12%;
+	// position:absolute;
+	// bottom: 30%;
+	// right:0; */
+  }
+
+.trans {
+	scroll-behavior: smooth;
 }
 
-.hero-title h3 {
-  font-family: "The Nautigal", cursive;
-  font-size: 6vw;
-  font-weight: bold;
-  text-align: right;
-  padding-right: 5%;
-}
-
-.hero-k h3 {
-  font-size: 50px;
-  text-align: center;
-}
-
-.text-container {
-  font-size: 2vw;
-  font-weight: bold;
-  text-align: right;
-  padding-right: 5%;
-}
-
-.hero-text-1 {
-  font-family: "The Nautigal", cursive;
-  font-size: 3vw;
-  font-weight: bold;
-  text-align: right;
-  padding-right: 8%;
-  position:absolute;
-  bottom: 40%;
-  right:0;
-  color: black;
-}
-
-.hero-button {
-  color: black;
-  margin:auto;
-}
-
-/*  */
+/* .button {	
+	--offset: 10px;
+	--border-size: 2px;
+	
+	display: block;
+	position: relative;
+	padding: 1vw 2vw;
+	appearance: none;
+	border: 0;
+	background: transparent;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 0;
+	box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+	transition: background .8s ease; */
+	
+	/* &:hover {
+		background: rgba(100, 0, 0, .03);
+	}
+	
+	&__horizontal,
+	&__vertical {
+		position: absolute;
+		top: var(--horizontal-offset, 0);
+		right: var(--vertical-offset, 0);
+		bottom: var(--horizontal-offset, 0);
+		left: var(--vertical-offset, 0);
+		transition: transform .8s ease;
+		will-change: transform;
+		
+		&::before {
+			content: '';
+			position: absolute;
+			border: inherit;
+		}
+	}
+	
+	&__horizontal {
+		--vertical-offset: calc(var(--offset) * -1);
+		border-top: var(--border-size) solid currentcolor;
+		border-bottom: var(--border-size) solid currentcolor;
+		
+		&::before {
+			top: calc(var(--vertical-offset) - var(--border-size));
+			bottom: calc(var(--vertical-offset) - var(--border-size));
+			left: calc(var(--vertical-offset) * -1);
+			right: calc(var(--vertical-offset) * -1);
+		}
+	}
+	
+	&:hover &__horizontal {
+		transform: scaleX(0);
+	}
+	
+	&__vertical {
+		--horizontal-offset: calc(var(--offset) * -1);
+		border-left: var(--border-size) solid currentcolor;
+		border-right: var(--border-size) solid currentcolor;
+		
+		&::before {
+			top: calc(var(--horizontal-offset) * -1);
+			bottom: calc(var(--horizontal-offset) * -1);
+			left: calc(var(--horizontal-offset) - var(--border-size));
+			right: calc(var(--horizontal-offset) - var(--border-size));
+		}
+	}
+	
+	&:hover &__vertical {
+		transform: scaleY(0);
+	}
+} */
