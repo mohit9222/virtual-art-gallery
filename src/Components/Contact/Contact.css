@@ -1,0 +1,42 @@
+.contact-us {
+  margin-top: 30px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.quote {
+  margin-top: 10px;
+  font-family: "Moon Dance", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contact-us h3 {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.contact-options {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.contact-option {
+  display: flex;
+  align-items: center;
+}
+
+.detail h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}

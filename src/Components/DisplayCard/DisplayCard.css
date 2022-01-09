@@ -1,0 +1,13 @@
+.displayCard-container {
+  margin-top: 20px;
+}
+
+.dis_card {
+  font-family: monospace !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+
+.dis_cont {
+  font-family: monospace !important;
+}
