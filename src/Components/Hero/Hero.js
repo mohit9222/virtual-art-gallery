@@ -7,14 +7,15 @@ function Hero() {
 
         <div className="hero-container">
             <div className="hero-title">
-                <h3>Chitra Santhe 2022</h3>
+                <h3>Virtul Art Gallery 2022</h3>
             </div>
             <div className="text-container">
-                <h3>#ಚಿತ್ರ ಸಂತೆ 2022</h3>
+                {/* <h3>#ಚಿತ್ರ ಸಂತೆ 2022</h3> */}
+                <h3>#ಬೆಂಗಳೂರು 2022</h3>
             </div>
             <div className="hero-text-1">
-                <p>Karnataka Chitrakala Parishath<br/>
-                    Welcomes you to<br/>Virtual Chitrasanthe 2022</p>
+                <p>KCP<br/>
+                    Welcomes you to the<br/>Virtual Event 2022</p>
             </div>
 
             <div className="hero-button">

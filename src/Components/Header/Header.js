@@ -25,8 +25,9 @@ function Header() {
             >
               <MenuIcon />
             </IconButton> */}
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <img alt="logo" src={logo} height="50"/>
+            <Typography className="title" variant="h6" component="div" sx={{ flexGrow: 1 }}>
+              VAG
+            {/* <img alt="logo" src={logo} height="50"/> */}
             </Typography>
             {/* <Button color="inherit">Login</Button> */}
           </Toolbar>
