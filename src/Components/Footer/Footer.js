@@ -9,7 +9,7 @@ function Footer() {
                 <p>&copy; 2022 Art Gallery.</p>
             </div>
             <div className="made-text">
-                <p> Chitra Santhe 2022</p>
+                <p> Virtual Event 2022</p>
             </div>
             <div className="to-top" href="#gallery">
                 <ArrowCircleUpIcon />
