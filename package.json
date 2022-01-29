@@ -1,6 +1,6 @@
 {
-  "homepage": "https://mohit9222.github.io/art-gallery/",
-  "name": "art-gallery",
+  "homepage": "https://mohit9222.github.io/virtual-art-gallery/",
+  "name": "virtual-art-gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
