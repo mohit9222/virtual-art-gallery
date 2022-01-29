@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/virtual-art-gallery/static/css/main.4324c1f4.css",
-    "main.js": "/virtual-art-gallery/static/js/main.17bbbf64.js",
+    "main.css": "/virtual-art-gallery/static/css/main.37445594.css",
+    "main.js": "/virtual-art-gallery/static/js/main.94365fda.js",
     "static/js/787.3c2f7064.chunk.js": "/virtual-art-gallery/static/js/787.3c2f7064.chunk.js",
     "static/media/abstr.jpg": "/virtual-art-gallery/static/media/abstr.d20d21ec43bbf5769a61.jpg",
     "static/media/CkpLogo.png": "/virtual-art-gallery/static/media/CkpLogo.a12a2deb7870ff05a65e.png",
     "index.html": "/virtual-art-gallery/index.html",
-    "main.4324c1f4.css.map": "/virtual-art-gallery/static/css/main.4324c1f4.css.map",
-    "main.17bbbf64.js.map": "/virtual-art-gallery/static/js/main.17bbbf64.js.map",
+    "main.37445594.css.map": "/virtual-art-gallery/static/css/main.37445594.css.map",
+    "main.94365fda.js.map": "/virtual-art-gallery/static/js/main.94365fda.js.map",
     "787.3c2f7064.chunk.js.map": "/virtual-art-gallery/static/js/787.3c2f7064.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4324c1f4.css",
-    "static/js/main.17bbbf64.js"
+    "static/css/main.37445594.css",
+    "static/js/main.94365fda.js"
   ]
 }
